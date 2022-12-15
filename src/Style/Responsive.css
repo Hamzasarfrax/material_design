@@ -1,0 +1,8 @@
+@media (min-width: 992px)
+{
+.main_no_Auth_Header .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+        display: flex!important;
+        flex-basis: auto;
+    }
+}

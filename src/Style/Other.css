@@ -1,0 +1,271 @@
+:root {
+    --bg--danger: #e85451;
+    --bg--grey: #f2f2f2;
+    --text--white: #fff;
+    --text--dark: #37474f;
+    --font--family: Poppins, sans-serif;
+    --text--weight-lg: 900;
+    --text--weight-md: 700;
+    --text--weight-sm: 500;
+}
+
+/* this is img with top text */
+.main_img_roundex_001234008 .parent_img_with_texts img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.main_img_roundex_001234008 .parent_img_with_texts .bg_img {
+    background-color: var(--bg--grey);
+    color: var(--text--dark);
+    padding: 5px 10px;
+}
+
+.main_img_roundex_001234008 .parent_img_with_texts .bg_img:hover {
+    background-color: var(--text--dark);
+    color: var(--bg--grey);
+}
+
+/* parent_img_with_texts */
+.main_img_roundex_001234008 .parent_img_with_texts img {
+    filter: blur(2px);
+}
+
+.main_img_roundex_001234008 .parent_img_with_texts {
+    position: relative;
+    width: 100%;
+}
+
+.parent_img_with_texts .all_content_bg_img_text {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    padding: 20px;
+    z-index: 1;
+    color: var(--text--white);
+    margin: 20px;
+}
+
+/* 
+.main__content_blogs_0123445 */
+
+.main__content_blogs_0123445 {
+    margin: 50px 0px;
+}
+
+.main__content_blogs_0123445 .btn-danger {
+    background-color: var(--bg--danger);
+    color: var(--text--white);
+    padding: 5px 20px;
+    border-color: var(--bg--danger);
+    transition: 0.5s;
+}
+
+
+.main__content_blogs_0123445 .btn-danger:hover{
+    background-color: #850300;
+    color: var(--text--white);
+}
+.main__content_blogs_0123445 .btn-danger:hover i svg{
+ 
+    transform: translateX(10px);
+    transition: 0.5s;
+   
+}
+
+
+.main__content_blogs_0123445 .card_blogs {
+    padding: 10px;
+    border: 1px solid var(--bg--grey);
+    border-radius: 10px;
+}
+
+.main__content_blogs_0123445 .card_blogs .flex_card_text {
+    display: flex;
+    gap: 10px;
+    text-transform: capitalize;
+    margin: 10px 2px;
+}
+
+.main__content_blogs_0123445 .card_blogs .flex_card_text .tittle {
+    color: var(--bg--danger);
+    font-family: var(--text--weight-sm);
+}
+
+.main__content_blogs_0123445 .card_blogs .flex_card_text .description {
+    font-weight: var(--text--weight-sm);
+    color: var(--text--dark);
+}
+
+.main__content_blogs_0123445 .card_blogs .bottom_content {
+    text-transform: capitalize;
+    color: var(--text--dark);
+    font-size: 15px;
+    padding: 0px 5px;
+}
+
+/* select picker */
+.slect_picker_main_lamd_00987 {}
+
+.form-select {
+    border: 1px solid transparent !important;
+    background-color: var(--bg--grey);
+    background-image: none !important;
+}
+
+.form-select:focus {
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.slect_picker_main_lamd_00987 .btn_outline_secondary {
+    border: 1px solid transparent !important;
+    background-color: var(--bg--grey);
+    border-left: 1px solid var(--text--dark) !important;
+}
+
+.slect_picker_main_lamd_00987 .btn_outline_secondary:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.slect_picker_main_lamd_00987 .form-control {
+    border: 1px solid transparent !important;
+    background-color: var(--bg--grey);
+    cursor: pointer;
+    border-right: 1px solid var(--text--dark);
+}
+
+.slect_picker_main_lamd_00987 .form-control:focus {
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.slect_picker_main_lamd_00987 .align_with_parent .icon i {
+    color: var(--bg--danger);
+    font-size: 20px;
+}
+
+.slect_picker_main_lamd_00987 .align_with_parent {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.slect_picker_main_lamd_00987 .opacit_decreases_text_addon {
+    opacity: 0.4;
+}
+
+.slect_picker_main_lamd_00987 .drop_down_menu {
+
+    transform: translateY(0px);
+    display: none;
+}
+
+.slect_picker_main_lamd_00987 .drop_down_menu.open_menu {
+    position: absolute;
+    top: 100%;
+    display: block;
+    transition: 0.4s;
+    transform: translateY(10px);
+    transition: 0.4s;
+}
+
+.slect_picker_main_lamd_00987 .drop_down_menu.open_menu {
+    background-color: var(--bg--grey);
+    width: 100%;
+
+    border-radius: 10px !important;
+    text-transform: capitalize;
+    color: #37474f;
+    z-index: 5;
+}
+
+.slect_picker_main_lamd_00987 .drop_down_menu.open_menu li a {
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.slect_picker_main_lamd_00987 .drop_down_menu.open_menu li {
+    padding: 4px 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.slect_picker_main_lamd_00987 .drop_down_menu.open_menu li:hover {
+    background-color: var(--bg--danger);
+    color: var(--text--white);
+}
+
+.slect_picker_main_lamd_00987 .drop_down_of_residentials {
+    transition: 0.4s;
+    transform: translateY(-10px);
+}
+
+.slect_picker_main_lamd_00987 .drop_down_of_residentials.active {
+    transition: 0.4s;
+    transform: translateY(0px);
+}
+
+.slect_picker_main_lamd_00987 .drop_down_of_residentials.active .tabs_contents {
+    transition: 0.4s;
+    transform: translateY(0px);
+    display: block;
+    position: absolute;
+    top: 20px;
+    min-width: 300px;
+    background-color: var(--bg--grey);
+    padding: 20px;
+    border-radius: 15px;
+    z-index: 5;
+}
+
+.slect_picker_main_lamd_00987 .postion_relative {
+    position: relative;
+}
+
+.slect_picker_main_lamd_00987 .drop_down_of_residentials .tabs_contents {
+    display: none;
+}
+
+.slect_picker_main_lamd_00987 .postion_relative .drop_down_of_residentials .nav-tabs .nav-link {
+    border: 1px solid transparent !important;
+    font-size: 15px;
+    background-color: transparent !important;
+    position: relative !important;
+}
+
+.slect_picker_main_lamd_00987 .postion_relative .drop_down_of_residentials .nav-tabs .nav-link::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border-top: 2px solid var(--bg--danger);
+    border-radius: 5px;
+    transform: scale(0, 0);
+
+}
+
+.slect_picker_main_lamd_00987 .postion_relative .drop_down_of_residentials .nav-tabs .nav-link:hover:before {
+    width: 100%;
+    transition: 0.4s;
+    transform: scale(1, 1);
+}
+
+.slect_picker_main_lamd_00987 .postion_relative .drop_down_of_residentials #myTabContent {
+    padding: inherit !important;
+}
+
+.main_carousel_landing {
+    position: relative;
+}
+
+.main_carousel_landing .all_content_main_page_of_text {
+    position: absolute;
+    width: 100%;
+    top: 200px;
+}

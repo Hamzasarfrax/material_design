@@ -1,0 +1,94 @@
+:root {
+    --bg--danger: #e85451;
+    --bg--grey: #f2f2f2;
+    --text--white: #fff;
+    --text--dark: #37474f;
+    --font--family:Poppins,sans-serif;
+    --text--weight-lg: 900;
+    --text--weight-md: 700;
+    --text--weight-sm: 500;
+    --card--shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+.card__Section__001 .card_main_parents{
+border:1px solid var(--bg--grey);
+    border-radius: 10px;
+   
+}
+.card__Section__001 .main__card_img img{
+    width: 100%;
+}
+.card__Section__001 .card_main_parents {
+    padding: 10px;
+    margin:10px 3px;
+}
+.card__Section__001 .card_main_parents .card_tittle{
+    text-transform: capitalize;
+    font-weight: var(--text--weight-md);
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0px;
+    border-bottom: 2px solid var(--bg--grey);
+    padding-bottom: 10px;
+    border-radius: 1px;
+}
+.card__Section__001 .card_body .main_card_flex__box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.card__Section__001 .card_icon i{
+    color: var(--bg--danger);
+  
+}
+.card__Section__001 .card_icon{
+
+    cursor: pointer;
+}
+
+
+.card__Section__001 .card_main_parents .main_content_card .card_flex_for_adjust_contents{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: baseline;
+}
+.card__Section__001 .card_main_parents .card_descriptions{
+    margin: 10px 0px;
+    font-weight: var(--text--weight-sm);
+}
+
+.card__Section__001 .card_main_parents .main_content_card{
+    padding-left: 20px;
+  
+}
+.card__Section__001 .card_main_parents .main_content_card.secondary{
+    border-left: 2px solid var(--bg--grey);
+}
+
+/* card__Section__0012 */
+.card__Section__0012{
+    margin: 20px 0px;
+}
+
+.card__Section__0012 .second__card_to_dislplay_bottom{
+
+}
+.card__Section__0012 .card_box_350px{
+    padding: 10px;
+    border: 1px solid var(--bg--grey);
+    border-radius: 10px;
+    margin:10px 3px;
+}
+.card__Section__0012 .card_box_350px .card_body{
+    padding:10px 1px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.card__Section__0012 .card_box_350px .card_body .tittle a{
+color: var(--text--dark);
+}
+.card__Section__0012 .card_box_350px .card_body .amount_other_details .no-margin{
+    color:var(--bg--danger);
+}
