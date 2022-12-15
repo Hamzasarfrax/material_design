@@ -163,7 +163,12 @@
     transform: translateY(0px);
     display: none;
 }
-
+.slect_picker_main_lamd_00987  #dropdown_input{
+    text-transform: capitalize;
+    color: #e85451;
+    font-weight: var(--text--weight-md);
+ 
+}
 .slect_picker_main_lamd_00987 .drop_down_menu.open_menu {
     position: absolute;
     top: 100%;
@@ -187,6 +192,7 @@
     cursor: pointer;
     width: 100%;
     margin-top: 10px;
+    padding: 4px 400px 4px 10px;
 }
 
 .slect_picker_main_lamd_00987 .drop_down_menu.open_menu li {
@@ -268,4 +274,31 @@
     position: absolute;
     width: 100%;
     top: 200px;
+}
+.postioning_row{
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translate(-50%,-50%);
+}
+.main_top_tabpills_light_weight{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0,0,0,.05);
+    border-radius: 4px;
+}
+
+.main_top_tabpills_light_weight .nav-pills .nav-link.active, 
+.main_top_tabpills_light_weight .nav-pills .show>.nav-link {
+   background-color: var(--text--white);
+   color: var(--text--dark);
+   font-weight: 500;
+}
+.main_top_tabpills_light_weight .nav-link{
+    color: var(--text--white);
+    font-weight: 500;
+    text-transform: capitalize;
 }
