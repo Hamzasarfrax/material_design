@@ -31,7 +31,7 @@ a {
 }
 
 header .main_no_Auth_Header {
-  background: var(--bg--danger);
+  position: relative;
 }
 header .main_no_Auth_Header .nav___bar{
   position: relative;
@@ -39,15 +39,24 @@ header .main_no_Auth_Header .nav___bar{
   transition: 0.5s;
   width: 100vw;
   z-index: 100;
+  background-color: var(--bg--danger);
 
+}
+header .main_no_Auth_Header .nav___bar.toP_active{
+  transform: translateY(-100px);
+  transition: 0.4s;
 }
 header .main_no_Auth_Header .nav___bar.active{
   position: fixed;
+  top: 0;
   transition: 0.5s;
- 
+ transform: translateY(0px);
   z-index: 100;
   background-color: var(--bg--danger);
 } 
+.main_no_Auth_Header li{
+  position: relative;
+}
 .main_no_Auth_Header li .nav-link {
   color: #fff !important;
 }
@@ -60,6 +69,8 @@ header .main_no_Auth_Header .nav___bar.active{
   position: relative;
   transition: all 0.4s;
   z-index: 5;
+  text-transform: capitalize;
+  font-family: var(--font--family);
 }
  .main_no_Auth_Header .navbar-nav .nav-link::before {
 content: "";
@@ -80,6 +91,25 @@ background-color: var(--text--white);
   width: 100%;
   overflow-x: hidden;
 }
+.main_no_Auth_Header #top_header_menues  .drop_menu_down
+{
+  transition: all 0.4s;
+position: absolute;
+display: none;
+  transform: translateY(10px);
+  background: var(--bg--grey);
+  color: var(--bg--danger);
+  border-radius: 15px;
+  width: 200px;
+}
+.main_no_Auth_Header .navbar-nav .nav-link:hover   .drop_menu_down{
+  display: block;
+}
+.drop_menu_down ul li a{
+  color: var(--bg--danger);
+  text-align: left;
+}
+
 
 /* this is the footer styling code */
 .style_footer_wrapper__JVYT6 {
@@ -220,7 +250,22 @@ background-color: var(--text--white);
 /* global css */
 .main_headings_all {
   text-transform: capitalize;
-
+color: var(--text--dark);
   font-size: 20px;
   margin: 20px 10px;
+}
+.btn_danger{
+  background-color: var(--bg--danger);
+  color: var(--text--white);
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 20px;
+  border: 1px solid var(--bg--danger);
+}
+.btn_danger:hover , .btn_danger:focus{
+  background-color: var(--bg--danger);
+  color: var(--text--white);
+  outline: none;
+  border-color: var(--bg--danger);
+  box-shadow: none;
 }

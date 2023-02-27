@@ -1,0 +1,43 @@
+:root {
+    --bg--danger: #e85451;
+    --bg--grey: #f2f2f2;
+    --text--white: #fff;
+    --text--dark: #37474f;
+    --font--family: Poppins, sans-serif;
+    --text--weight-lg: 900;
+    --text--weight-md: 700;
+    --text--weight-sm: 500;
+  }
+
+  .hire_me_main{
+    margin: 20px 0px;
+  }
+
+  .hire_me_main .main_headings h2{
+    text-transform: capitalize;
+    font-weight: var(--text--weight-lg);
+    font-size: 35px;
+    color: var(--text--dark);
+  }
+  .hire_me_main  .hire_me_section{
+    background-color: var(--bg--grey);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 60px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .hire_me_main  .hire_me_section .form-label{
+text-transform: capitalize;
+font-weight: var(--text--weight-sm);
+font-size: 20px;
+color: var(--text--dark);
+  }
+
+  .hire_me_main  .btn_danger{
+    background-color: var(--bg--danger);
+color: var(--text--white);
+text-transform: capitalize;
+font-weight: 500;
+font-size: 20px;
+
+}

@@ -10,6 +10,10 @@
 }
 
 /* this is img with top text */
+.main_img_roundex_001234008{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
 .main_img_roundex_001234008 .parent_img_with_texts img {
     max-width: 100%;
     width: 100%;
@@ -50,7 +54,8 @@
 .main__content_blogs_0123445 */
 
 .main__content_blogs_0123445 {
-    margin: 50px 0px;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 .main__content_blogs_0123445 .btn-danger {
@@ -281,7 +286,7 @@
     top: -100px;
     transform: translate(-50%,-50%);
 }
-.main_top_tabpills_light_weight{
+.postioning_row .main_top_tabpills_light_weight{
 
     display: flex;
     justify-content: center;
@@ -289,16 +294,98 @@
     backdrop-filter: blur(5px);
     background-color: rgba(0,0,0,.05);
     border-radius: 4px;
+    width: fit-content;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
 }
 
-.main_top_tabpills_light_weight .nav-pills .nav-link.active, 
-.main_top_tabpills_light_weight .nav-pills .show>.nav-link {
+.postioning_row .main_top_tabpills_light_weight .nav-pills .nav-link.active, 
+.postioning_row .main_top_tabpills_light_weight .nav-pills .show>.nav-link {
    background-color: var(--text--white);
    color: var(--text--dark);
    font-weight: 500;
 }
-.main_top_tabpills_light_weight .nav-link{
+.postioning_row .main_top_tabpills_light_weight .nav-link{
     color: var(--text--white);
     font-weight: 500;
     text-transform: capitalize;
+}
+
+.postioning_row  .tex_main_top_headings{
+    font-size: 1.75rem;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+    text-shadow: 0 1px 2px rgba(60, 46, 46, 0.65);
+    margin-bottom: 30px;
+
+}
+
+.main_img_text__with_buttons .texts_012 h2{
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 1.125rem;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 65%);
+}
+.main_img_text__with_buttons .texts_012 h3{
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 65%);
+    margin-bottom: 10px;
+}
+.main_img_text__with_buttons{
+    text-transform: capitalize;
+    color: var(--text--white);
+    text-align: center;
+}
+
+.main_img_text__with_buttons  ._wanted_btn .btn_danger{
+    background-color: var(--bg--danger);
+    color: var(--text--white);
+    font-weight: var(--text--weight-sm);
+    font-size: 1.2rem;
+    padding:10px 20px;
+    text-transform: capitalize;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+.bottom_bars{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    bottom: 10px;
+    left: 0;
+    padding: 1.5rem 1rem;
+    background-color: rgba(0,0,0,.65);
+    filter: blur(0px);
+    text-align: center;
+}
+.bottom_bars .anchors_with_tooltips{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.anchors_with_tooltips .btn_danger{
+    border: 1px solid #f2f2f2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 5px !important;
+   
+}
+.anchors_with_tooltips .btn_danger .icons{
+    color: var(--bg--grey);
+    font-size: 25px;
+}
+.anchors_with_tooltips .btn_danger .imgs img{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   top: 11px;
 }

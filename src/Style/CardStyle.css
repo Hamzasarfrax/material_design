@@ -67,7 +67,8 @@ border:1px solid var(--bg--grey);
 
 /* card__Section__0012 */
 .card__Section__0012{
-    margin: 20px 0px;
+   margin-top: 20px;
+   margin-bottom: 100px;
 }
 
 .card__Section__0012 .second__card_to_dislplay_bottom{

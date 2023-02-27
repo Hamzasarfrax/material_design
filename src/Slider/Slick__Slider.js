@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import "../Style/Other.css"
 import Main_selct_picker from '../Components/Main_selct_picker';
+import Bottom_bar from '../Components/Bottom_bar';
 const Slick__Slider = () => {
   const settings = {
     dots:false,
@@ -21,19 +22,21 @@ const Slick__Slider = () => {
     <div>
       <div className="Slide_imgs">
 
-        <img src="https://dummyimage.com/1200x500/d6c3d6/fff.png&text=mail_slider_imgs" alt="" />
+      
+      <img src="https://dummyimage.com/1200x500/d6c3d6/fff.png&text=mail_slider_imgs-1200*500" alt="" />
       </div>
     </div>
     <div>
       <div className="Slide_imgs">
 
-        <img src="https://dummyimage.com/1200x500/d6c3d6/fff.png&text=mail_slider_imgs" alt="" />
+       
+      <img src="https://dummyimage.com/1200x500/d6c3d6/fff.png&text=mail_slider_imgs-1200*500" alt="" />
       </div>
     </div>
     <div>
       <div className="Slide_imgs">
 
-        <img src="https://dummyimage.com/1200x500/d6c3d6/fff.png&text=mail_slider_imgs" alt="" />
+        <img src="https://dummyimage.com/1200x500/d6c3d6/fff.png&text=mail_slider_imgs-1200*500" alt="" />
       </div>
     </div>
 
@@ -43,6 +46,10 @@ const Slick__Slider = () => {
   <Main_selct_picker/>
   
   </div>
+<div className="footer_slider_contents">
+  <Bottom_bar/>
+ 
+</div>
     </div>
     </div>
   )

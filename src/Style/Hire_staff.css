@@ -1,0 +1,31 @@
+
+:root {
+    --bg--danger: #e85451;
+    --bg--grey: #f2f2f2;
+    --text--white: #fff;
+    --text--dark: #37474f;
+    --font--family: Poppins, sans-serif;
+    --text--weight-lg: 900;
+    --text--weight-md: 700;
+    --text--weight-sm: 500;
+  }
+.section_hire_staff {
+position: relative;
+margin: 20px 0px;
+padding: 0;
+}
+
+.deatils_staff_parents_div .section_table{
+    background-color: var(--bg--grey);
+    padding: 20px;
+    margin: 40px 0px;
+    font-family: var(--font--family);
+    border-radius: 10px;
+}
+.deatils_staff_parents_div .main_heading h2{
+  text-transform: capitalize;
+  font-weight: var(--text--weight-lg);
+  font-size: 35px;
+  color: var(--text--dark);
+  text-align: center;
+}

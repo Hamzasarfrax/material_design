@@ -8,10 +8,13 @@ import "../src/Style/Main_Style.css"
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Main from './Routes/Main';
 import Sec from './Routes/Sec';
-import First from './Routes/First';
+
 import Footer from './Footer/Footer';
 import  Header  from '../src/Header/Header';
 import Home from './Routes/Home';
+import Hire_Me from './Routes/Hire_Me';
+import Card_detail from './Routes/Card_detail';
+import Hire_staff from './Routes/Hire_staff';
 
 function App() {
   return (
@@ -20,7 +23,9 @@ function App() {
 <Header/>
 <Routes>
 <Route path='/' element={<Home/>}/>
-<Route path='first' element={<First/>}/>
+<Route path='hireme' element={<Hire_Me/>}/>
+<Route path='card' element={<Card_detail/>}/>
+<Route path='hirestaff' element={<Hire_staff/>}/>
 <Route path='second' element={<Sec/>}/>
 
 </Routes>

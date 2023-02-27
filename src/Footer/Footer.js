@@ -218,7 +218,7 @@ const Footer = () => {
                     </div>
                 </section>
               
-            </footer>;
+            </footer>
             <footer id='copyright__main_ftr'>
             <section className="style_footer_copyright_area__varIK">
             <div className="container">

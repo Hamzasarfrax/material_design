@@ -25,31 +25,31 @@ const Main_selct_picker = () => {
 
 
   function Select_Area() {
-if(document.getElementById("drop_down_menu").className ==="open_menu"){
-  alert("working")
-document.getElementById("drop_down_menu").classList.remove("open_menu")
-document.getElementById("dropdown_input").classList.remove("show_drop_down")
-}
+    if (document.getElementById("drop_down_menu").className === "open_menu") {
+      alert("working")
+      document.getElementById("drop_down_menu").classList.remove("open_menu")
+      document.getElementById("dropdown_input").classList.remove("show_drop_down")
+    }
     let dropdown_residental = document.getElementById("residental");
     dropdown_residental.classList.toggle("active")
 
   }
- window.addEventListener("load",function(){
-  if(document.getElementById("My_UL_items")){
-    let My_UL_items= document.getElementById("My_UL_items");
-    let get_Childs=My_UL_items.getElementsByClassName("nav-link")
-    for(let i=0;i<get_Childs.length;i++){
-     get_Childs[i].addEventListener("click",function(e){
-       if(document.querySelector(".nav-link.active") !== null){
-         document.querySelector(".nav-link.active").classList.remove("active")
-  
-         e.target.classList.add("active")
-       }
-     })
+  window.addEventListener("load", function () {
+    if (document.getElementById("My_UL_items")) {
+      let My_UL_items = document.getElementById("My_UL_items");
+      let get_Childs = My_UL_items.getElementsByClassName("nav-link")
+      for (let i = 0; i < get_Childs.length; i++) {
+        get_Childs[i].addEventListener("click", function (e) {
+          if (document.querySelector(".nav-link.active") !== null) {
+            document.querySelector(".nav-link.active").classList.remove("active")
+
+            e.target.classList.add("active")
+          }
+        })
+      }
     }
-  }
- })
- 
+  })
+
 
   return (
     <div>
@@ -131,29 +131,49 @@ document.getElementById("dropdown_input").classList.remove("show_drop_down")
 
 
 
-      
+
       </div>
-    
-<div className="row postioning_row" >
-<div className="col-sm-12 text-center">
-<div className="main_top_tabpills_light_weight">
-        
-<ul class="nav nav-pills" id='My_UL_items'>
-<li class="nav-item">
-<a class="nav-link active" aria-current="page" href="#">Active</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Link</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Link</a>
-</li>
+
+      <div className="row postioning_row" >
+        <div className="text-center tex_main_top_headings">
+          Pakistan's 1st Online Real Estate Marketplace
+        </div>
+        <div className="col-sm-12 text-center">
+          <div className="main_top_tabpills_light_weight">
+
+            <ul class="nav nav-pills" id='My_UL_items'>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
 
 
-</ul>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+{/* // this is the text_with_buttons */}
+
+
+<div className="main_img_text__with_buttons">
+<div className="row">
+  <div className="texts_012">
+    <h2>Don't want the hassle?</h2>
+  </div>
+  <div className="texts_012">
+    <h3>Let us handle everything for you!</h3>
+  </div>
+  <div className="_wanted_btn">
+    <button className='btn btn_danger'>wanted</button>
+  </div>
 </div>
 
-</div>
 </div>
 
     </div>

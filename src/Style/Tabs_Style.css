@@ -24,8 +24,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    min-width: 600px;
-    max-width: 600px;
+    min-width: fit-content;
+    max-width: fit-content;
 }
 
 .main__reat__tabs .nav-link {
@@ -116,7 +116,8 @@
     
 }
 .main__reat__tabs .tab-content{
-    margin: 40px 0px;
+   margin-top: 20px;
+   margin-bottom: 100px;
 }
 .header_section_002 .parent_top_card_flex{
     display: flex ;
